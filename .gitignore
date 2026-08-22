@@ -1,3 +1,26 @@
+# Dependencies
 node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+
+# Environment variables
 .env
+.env.*
+!.env.example
+
+# OS & Logs
 .DS_Store
+*/.DS_Store
+*.log
+npm-debug.log*
+
+# Server Uploads
+server/uploads/*.mp3
+server/uploads/*.wav
+server/uploads/*.png
+server/uploads/*.jpg
+server/uploads/*.jpeg
+!server/uploads/.gitkeep
